@@ -4,6 +4,6 @@ import net.cryls.backendcursojava.shared.dto.UserDTO;
 
 public interface UserServiceInterface {
 
-    UserDTO createUser(UserDTO userDTO);
+    public UserDTO createUser(UserDTO userDTO);
 
 }
