@@ -27,7 +27,7 @@ public class UserService implements UserServiceInterface {
         userRepository.save(userEntity);
 
         UserDTO userToReturn = new UserDTO();
-        BeanUtils.copyProperties(userDTO, userToReturn);
+        BeanUtils.copyProperties(storedUserDetail, userToReturn);
         return userToReturn;
 
         
