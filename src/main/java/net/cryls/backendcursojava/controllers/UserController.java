@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import net.cryls.backendcursojava.models.request.UserDetailRequestModel;
 import net.cryls.backendcursojava.models.responses.UserRest;
-import net.cryls.backendcursojava.services.UserService;
 import net.cryls.backendcursojava.services.UserServiceInterface;
 import net.cryls.backendcursojava.shared.dto.UserDTO;
 

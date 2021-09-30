@@ -19,6 +19,7 @@ public class UserService implements UserServiceInterface {
 
         UserEntity userEntity = new UserEntity();
         BeanUtils.copyProperties(userDTO, userEntity);
+        
         userEntity.setEncryptedPassword("testpassword");
         userEntity.setUserId("testUserId");
 
